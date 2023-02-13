@@ -1,6 +1,6 @@
 # super class
 class Computer
-    attr_Accessor :model, :country, :year
+    attr_accessor :model, :country, :year
     
     def initialize(model, country, year)
         @model = model
@@ -13,6 +13,9 @@ class Computer
     end
 
 end
+lenovo = Computer.new('Lenovo', 'China', 2021)
+puts lenovo.country
+
 
 # TODO: Implement class that inherits from Computer class
 
